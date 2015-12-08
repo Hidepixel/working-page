@@ -1,0 +1,25 @@
+body {
+  background: #00a8e2;
+  overflow: hidden;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  font: 14px/22px 'Lato', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.Logo {
+  width: 119px;
+  height: 53px;
+  margin: 20px auto;
+
+  background: url(logo.png) center center no-repeat;
+  background-size: contain;
+}
